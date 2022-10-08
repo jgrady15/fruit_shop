@@ -4,7 +4,7 @@ import Head from "next/head";
 import Navbar from './Navbar';
 // import Footer from './Footer';
 
-const Layout = () => {
+const Layout = ({ children }) => {
     return (
         <div className="Layout">
             <Head>
@@ -14,10 +14,10 @@ const Layout = () => {
                 <Navbar />
             </header>
             <main className="main-container">
-                {children}
+                { children }
             </main>
             <footer>
-                <Footer />
+                {/* <Footer /> */}
             </footer>
         </div>
     )
