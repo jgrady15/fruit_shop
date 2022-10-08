@@ -8,13 +8,13 @@ const Product = ({ product: { image, name, slug, price } }) => {
         <div>
             <Link href={`/product/${slug.current}`} passHref>
                 <div className="product-card">
-                    {/* <Image 
+                    <img 
                         src={urlFor(image && image[0])}
                         width={250}
                         height={250}
                         className="product-image"
                         alt="Next.js is not compatible with your system!"
-                    /> */}
+                    />
                     <p className="product-name">{name}</p>
                     <p className="product-price">${price}</p>
                 </div>
