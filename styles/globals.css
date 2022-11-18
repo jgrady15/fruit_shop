@@ -138,7 +138,7 @@ width: 100%;
   width: 100%;
 
 }
-.hero-banner-container .beats-solo{
+.hero-banner-container .fruits-standalone{
   font-size: 20px;
 }
 .hero-banner-container button{
@@ -147,7 +147,8 @@ width: 100%;
   background-color: #f02d34;
   color: white;
   border: none;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-left: 45px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
